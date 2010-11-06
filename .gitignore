@@ -1,0 +1,6 @@
+.DS_Store
+public/ebooks
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/**/*
