@@ -75,4 +75,3 @@ DEPENDENCIES
   hpricot
   liquid
   rails (= 3.0.1)
-  sqlite3-ruby
