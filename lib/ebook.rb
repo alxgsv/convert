@@ -31,11 +31,11 @@ class Ebook
   end
   
   def generate_epub
-    `/usr/bin/ebook-convert #{filename("fb2")} #{filename("epub")} --no-default-epub-cover`
+    `/opt/calibre/ebook-convert #{filename("fb2")} #{filename("epub")} --no-default-epub-cover`
   end
   
   def generate_mobi
-    `/usr/bin/ebook-convert #{filename("fb2")} #{filename("mobi")}`
+    `/opt/calibre/ebook-convert #{filename("fb2")} #{filename("mobi")}`
   end
   
   def convert
